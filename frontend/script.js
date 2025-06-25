@@ -1,5 +1,5 @@
 // Backend API URL (Render yoki Heroku’dan olinadi)
-const API_URL = `http://localhost:5000/api/auth/${isRegister ? 'register' : 'login'}`;
+const API_URL = `https://fizod-backend-bsgq.onrender.com/api/auth/${isRegister ? 'register' : 'login'}`;
 
 // Ma'lumotlarni localStorage dan olish faqat currentUser uchun
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
